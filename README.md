@@ -22,13 +22,13 @@ SkyRoute 研究模拟城市片区中的三维空间数据、动态空域限制�
 
 ## 成员分工
 
-| 成员 | 负责方向 | PPT | 个人记录 |
-| --- | --- | --- | --- |
-| ZQO | 空域更新、版本一致性与架构整合 | 第1–2页 | [ZQO](docs/handoffs/zqo.md) |
-| YHT | 场景需求与三维数据建模 | 第3–4页 | [YHT](docs/handoffs/yht.md) |
-| LQ | 地面风险评估与安全治理 | 第5–6页 | [LQ](docs/handoffs/lq.md) |
-| ZC | 三维航线算法与评估 | 第7–8页 | [ZC](docs/handoffs/zc.md) |
-| LJ | 运维保障与验收支持 | 第9–10页 | [LJ](docs/handoffs/lj.md) |
+| 编号 | 成员 | 负责方向 | PPT | 个人记录 |
+| --- | --- | --- | --- | --- |
+| 成员1 | ZQO | 空域更新、版本一致性与架构整合 | 第1–2页 | [ZQO](docs/handoffs/zqo.md) |
+| 成员2 | YHT | 场景需求与三维数据建模 | 第3–4页 | [YHT](docs/handoffs/yht.md) |
+| 成员3 | LQ | 地面风险评估与安全治理 | 第5–6页 | [LQ](docs/handoffs/lq.md) |
+| 成员4 | ZC | 三维航线算法与评估 | 第7–8页 | [ZC](docs/handoffs/zc.md) |
+| 成员5 | LJ | 运维保障与验收支持 | 第9–10页 | [LJ](docs/handoffs/lj.md) |
 
 五个工作包并行推进，各自的 AI 使用 `starter-v0` 和模块交换约定自主研究、选型、设计与验证，形成可交付版本。ZQO 主责空域更新和版本一致性，持续整合总体架构；其他模块可以直接完成自己的技术决定。通过 Git 读取新成果后，当前 AI 主动检查与修订。
 
